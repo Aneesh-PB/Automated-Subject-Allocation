@@ -1,10 +1,10 @@
 #  Automated Subject Allocation and Workload Calculation
 
-## 📘 Project Overview
+##  Project Overview
 This project automates the process of **subject allocation and workload distribution** for college faculty, ensuring a fair and efficient system.  
 It assigns subjects based on **faculty preferences, qualifications, and department requirements**, minimizing manual effort and improving transparency.
 
-### 📂 Project Context
+###  Project Context
 This **mini project** was developed in **collaboration with the Department of Information Technology**, aimed at streamlining academic workload management and faculty subject allocation.
 
 ---
