@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial;
+  }
+
+  #logo-div {
+    width: 100%;
+    min-height: 50px;
+    background-color: whitesmoke;
+    padding-left: 2%;
+    line-height: 50px;
+    margin-bottom: 10px;
+  }
+
+  #nav-div {
+    width: 100%;
+    min-height: 30px;
+    background-color: whitesmoke;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+
+  #header-banner-div {
+    width: 100%;
+    min-height: 100px;
+    background-color: whitesmoke;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  #main-div {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  /* #sidebar-div {
+    width: 20%;
+    min-height: 400px;
+    background-color: whitesmoke;
+    float: left;
+    text-align: center;
+    line-height: 70px;
+  } */
+
+  #bodyarea-div {
+    width: 100%;
+    min-height: 400px;
+    background-color: whitesmoke;
+    float: right;
+    text-align: center;
+    line-height: 50px;
+  }
+
+  .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  #footer-div {
+    width: 100%;
+    min-height: 50px;
+    background-color: whitesmoke;
+    text-align: center;
+    line-height: 50px;
+  }
+
+  #wrapper-div {
+    width: 80%;
+    margin: auto;
+  }
+
+  /* th, td {
+    padding:10px;
+  } */
+
+  
+  input[type=submit]{
+    background-color: #0674c2;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    float: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+   
+  }
+   th, td {
+    text-align: left;
+    vertical-align:center;
+    padding-left:  10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }

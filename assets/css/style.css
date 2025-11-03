@@ -1,0 +1,131 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+#logo-div::before {
+  content: "OPTIMIZING SUBJECT ALLOCATION AND WORKLOAD CALCULATION";
+  font-weight: bold;
+  display: block;
+  padding: 10px;
+  padding-left: 0px;
+  font-size: 26px;
+  text-align: center;
+}
+
+#logo-div {
+  width: 100%;
+  min-height: 50px;
+  background-color: white;
+  padding-left: 2%;
+  line-height: 50px;
+  margin-bottom: 10px;
+}
+
+
+
+#nav-div {
+  width: 100%;
+  min-height: 30px;
+  background-color: white;
+  text-align: center;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+#header-banner-div {
+  width: 100%;
+  min-height: 50px;
+  background-color: white;
+  text-align: center;
+  line-height: 100px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#main-div {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* #sidebar-div {
+  width: 20%;
+  min-height: 400px;
+  background-color: white;
+  float: left;
+  text-align: center;
+  line-height: 70px;
+} */
+
+#bodyarea-div {
+  width: 100%;
+  min-height: 400px;
+  background-color: white;
+  float: right;
+  text-align: center;
+  line-height: 50px;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#footer-div {
+  width: 100%;
+  min-height: 50px;
+  background-color: white;
+  text-align: center;
+  line-height: 50px;
+}
+
+#wrapper-div {
+  width: 80%;
+  margin: auto;
+}
+
+/* th, td {
+  padding:10px;
+} */
+
+
+input[type=submit]{
+  background-color: #0674c2;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  float: right;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 16px;
+  border-radius: 10px;
+  
+ 
+}
+input[type=submit]:hover{
+  box-shadow: 0px 0px 10px #0d6efd;
+ 
+}
+ th, td {
+  text-align: left;
+  vertical-align:center;
+  padding-left:  10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+button {
+  background-color: #0d6efd;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+button:hover {
+  box-shadow: 0px 0px 10px #0d6efd;
+}
